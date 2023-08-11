@@ -10,7 +10,10 @@ namespace Xakaton_2023
     {
         static void Main(string[] args)
         {
-
+            Console.Write("Вас зовут: "); Console.ReadLine();
+            int age = 0;
+            Console.Write("Вам лет: "); age = int.Parse(Console.ReadLine()); Console.Write($"Вам лет: {age}");
+            Console.ReadKey();
         }
     }
 }
